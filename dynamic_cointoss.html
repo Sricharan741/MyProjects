@@ -2,13 +2,13 @@
 <head>
 	<title>Flip Coin Game</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\css\flipcoin_dynamic.css">
-	<script type="text/javascript" src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\js\flipcoin_new.js"></script>
+	<link rel="stylesheet" type="text/css" href="flipcoin_dynamic.css">
+	<script type="text/javascript" src="flipcoin_new.js"></script>
 </head>
 <body class="spectrum-background">
 	<!-- Main Heading-->
 	<div title="Heading." style="background-color:transparent;height:80px;">
-		<center><img style="height:65px;width:45%;" src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\images\heading.gif"></center>
+		<center><img style="height:65px;width:45%;" src="heading.gif"></center>
 		<hr>
 	</div>
 	<div style="height:40px;">
@@ -19,15 +19,15 @@
 		<div id="comp_wallet" title="Computer Wallet." class="floatleft">
 			<u><h2>Computer Wallet</h2></u>
 			<span id="c_wallet" style="font-size:20px;">100</span>
-			<img src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\images\coin.png" height="20px" width="20px">
+			<img src="coin.png" height="20px" width="20px">
 		</div>
 		<div id="user_wallet" title="Your Wallet." class="floatright">
 			<u><h2>Your Wallet</h2></u>
 			<span id="u_wallet" style="font-size:20px;">100</span>
-			<img src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\images\coin.png" height="20px" width="20px">
+			<img src="coin.png" height="20px" width="20px">
 		</div>
 		<div style="float:left;margin-left:15%;">
-				<img  id="statusimage" style="border-radius:5px;box-shadow: 8px 8px 5px 5px rgba(0, 0, 255, 0.2);" title="Game status" height="120" width="500" src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\images\toss.png" alt="Win or Lose or Toss">
+				<img  id="statusimage" style="border-radius:5px;box-shadow: 8px 8px 5px 5px rgba(0, 0, 255, 0.2);" title="Game status" height="120" width="500" src="toss.png" alt="Win or Lose or Toss">
 		</div>
 	</div>
 	<!-- Score Board and Main Table -->
@@ -58,10 +58,10 @@
 									<div class="flip-container">
 										<div class="flipper" id="coin" onclick="toss();">
 											<div class="front">
-												<img id="frontimg" src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\images\heads.png">
+												<img id="frontimg" src="heads.png">
 											</div>
 											<div class="back">
-												<img id="backimg" src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\images\tails.png">
+												<img id="backimg" src="tails.png">
 											</div>
 										</div>
 									</div>
@@ -108,7 +108,7 @@
 				<b style="background-color:grey;color:white;border-radius:5px;">
 					<label title="TrialCount">Trial No:</label>(<span id="trials">0</span>/10)
 				</b>
-				<input type="image" title="Click To Reset" style="width:40px ;height:40px; border-radius:100%;"  id="b2" src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\images\reset.jpg" onclick="reset();">
+				<input type="image" title="Click To Reset" style="width:40px ;height:40px; border-radius:100%;"  id="b2" src="reset.jpg" onclick="reset();">
 			</center>
 		</div>
 	</div>
@@ -149,17 +149,17 @@
 			</table>
 		</center>
 	</div>
-	<audio id="coinflip"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\coinflip.mp3" type="audio/mpeg"></audio>
-	<audio id="youwin"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\youwin.mp3" type="audio/mpeg"></audio>
-	<audio id="youlose"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\youlose.mp3" type="audio/mpeg"></audio>
-	<audio id="heads_audio"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\heads.mp3" type="audio/mpeg"></audio>
-	<audio id="tails_audio"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\tails.mp3" type="audio/mpeg"></audio>
-	<audio id="heads_win"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\winner_heads.mp3" type="audio/mpeg"></audio>
-	<audio id="tails_win"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\winner_tails.mp3" type="audio/mpeg"></audio>
-	<audio id="tie_game"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\tie_game.mp3" type="audio/mpeg"></audio>
-	<audio id="no_score"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\no_score.mp3" type="audio/mpeg"></audio>
-	<audio id="victory"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\victory.mp3" type="audio/mpeg"></audio>
-	<audio id="cashwin"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\cashwin.mp3" type="audio/mpeg"></audio>
-	<audio id="gameover"><source src="C:\Users\Hi\Desktop\Flip Coin Game Version 1.1\audios\gameover.mp3" type="audio/mpeg"></audio>
+	<audio id="coinflip"><source src="coinflip.mp3" type="audio/mpeg"></audio>
+	<audio id="youwin"><source src="youwin.mp3" type="audio/mpeg"></audio>
+	<audio id="youlose"><source src="youlose.mp3" type="audio/mpeg"></audio>
+	<audio id="heads_audio"><source src="heads.mp3" type="audio/mpeg"></audio>
+	<audio id="tails_audio"><source src="tails.mp3" type="audio/mpeg"></audio>
+	<audio id="heads_win"><source src="winner_heads.mp3" type="audio/mpeg"></audio>
+	<audio id="tails_win"><source src="winner_tails.mp3" type="audio/mpeg"></audio>
+	<audio id="tie_game"><source src="tie_game.mp3" type="audio/mpeg"></audio>
+	<audio id="no_score"><source src="no_score.mp3" type="audio/mpeg"></audio>
+	<audio id="victory"><source src="victory.mp3" type="audio/mpeg"></audio>
+	<audio id="cashwin"><source src="cashwin.mp3" type="audio/mpeg"></audio>
+	<audio id="gameover"><source src="gameover.mp3" type="audio/mpeg"></audio>
 </body>
 </html>
