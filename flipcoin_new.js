@@ -85,7 +85,7 @@
 					coinflip();
 					if(flipno<flips){
 						setIdValue("b1","Continue");
-						document.getElementById("statusimage").src="C:/Users/Hi/Desktop/Flip Coin Game Version 1.1/images/continue.png";
+						document.getElementById("statusimage").src="continue.png";
 					}
 					setTimeout(function(){
 						if(flipno==flips){
@@ -205,7 +205,7 @@
 	function winnerOrLoser(user_wallet,comp_wallet,trialno)
 	{
 		if((user_wallet>comp_wallet||comp_wallet==0)&&trialno<=10){
-			document.getElementById("statusimage").src="C:/Users/Hi/Desktop/Flip Coin Game Version 1.1/images/Youwin.png";
+			document.getElementById("statusimage").src="Youwin.png";
 			/*if(trialno>1)
 				window.confirm("Congratulations YOU WON in "+(trialno)+ " trials.\nGame Over.\n Do you want to play again?");
 			else
@@ -220,13 +220,13 @@
 		else if(user_wallet==comp_wallet&&trialno==10){
 			setIdValue("b1","Play Again");
 			//window.alert("Game Tied . Try Again..!\nDon't Lose Hope.");
-			document.getElementById("statusimage").src="C:/Users/Hi/Desktop/Flip Coin Game Version 1.1/images/tie.png";
+			document.getElementById("statusimage").src="tie.png";
 			document.getElementById("tie_game").play();
 			createRow(play,trialno,user_wallet,comp_wallet,"TIE");
 		}
 		else if(trialno==10||user_wallet==0){
 			setIdValue("b1","Play Again");
-			document.getElementById("statusimage").src="C:/Users/Hi/Desktop/Flip Coin Game Version 1.1/images/YouLose.png";
+			document.getElementById("statusimage").src="YouLose.png";
 			/*if(trialno==10)
 				window.alert("Out Of Trials .\n You Lost The Game.\nDon't Worry Please Try Again..!");
 			else
@@ -239,7 +239,7 @@
 		}
 		else if(trialno<10){
 			setIdValue("b1","Toss Again");
-			document.getElementById("statusimage").src="C:/Users/Hi/Desktop/Flip Coin Game Version 1.1/images/tossagain.png";
+			document.getElementById("statusimage").src="tossagain.png";
 		}
 	}
 	function createRow(play,trialno,user_wallet,comp_wallet,str)
@@ -279,7 +279,7 @@
 		setInner("tossno",0);
 		setInner("gameplayno",play+1);
 		setInner("tossmax",getIdValue("flip_value"));
-		document.getElementById("statusimage").src="C:/Users/Hi/Desktop/Flip Coin Game Version 1.1/images/toss.png";
+		document.getElementById("statusimage").src="toss.png";
 		document.getElementById("flip_value").disabled=false;
 		document.getElementsByName("guess")[0].checked=true;
 		document.getElementById("radio_val1").disabled=false;
