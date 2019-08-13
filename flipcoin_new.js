@@ -48,6 +48,12 @@
 			i=0;j=1;
 			return false;
 		}
+                else if(parseInt(getIdValue("bet_value"))>parseInt(getInner("comp_wallet")))
+		{
+			alert("Please Enter Bet Value Less Than "+getInner("comp_wallet"));
+			i=0;j=1;
+			return false;
+		}
 		else {
 			document.getElementById("flip_value").disabled=true;
 			return true;
@@ -204,7 +210,7 @@
 	}
 	function winnerOrLoser(user_wallet,comp_wallet,trialno)
 	{
-		if((user_wallet>comp_wallet||comp_wallet==0)&&trialno<=10){
+		if((user_wallet>comp_wallet&&comp_wallet==0)&&trialno<=10){
 			document.getElementById("statusimage").src="Youwin.png";
 			/*if(trialno>1)
 				window.confirm("Congratulations YOU WON in "+(trialno)+ " trials.\nGame Over.\n Do you want to play again?");
