@@ -48,9 +48,9 @@
 			i=0;j=1;
 			return false;
 		}
-                else if(parseInt(getIdValue("bet_value"))>parseInt(getInner("comp_wallet")))
+                else if(parseInt(getIdValue("bet_value"))>parseInt(getInner("c_wallet")))
 		{
-			alert("Please Enter Bet Value Less Than "+getInner("comp_wallet"));
+			alert("Please Enter Bet Value Less Than "+getInner("c_wallet"));
 			i=0;j=1;
 			return false;
 		}
