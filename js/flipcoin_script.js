@@ -139,6 +139,10 @@
 			}
 		},50);
 	}
+	function resize(){
+		var object=document.getElementById("body");
+		object.className="spectrum-background";
+	}	
 	//function to check the scores
 	function check(heads,tails,guess,trials,trialno,flipno)
 	{
