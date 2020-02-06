@@ -224,7 +224,7 @@
 			else
 				window.confirm("Congratulations YOU WON in "+(trialno)+ " trial.\nGame Over.\n Do you want to play again?");*/
 			setIdValue("b1","Play Again");
-			document.getElementById("statusimage").src="../images/Youwin.png";
+			document.getElementById("statusimage").src="../images/YouWin.png";
 			document.getElementById("youwin").volume=0.7;
 			document.getElementById("youwin").play();
 			document.getElementById("victory").volume=0.2;
