@@ -218,13 +218,13 @@
 	function winnerOrLoser(user_wallet,comp_wallet,trialno)
 	{
 		if((user_wallet>comp_wallet||comp_wallet==0)&&trialno<=10){
-			document.getElementById("statusimage").src="../images/Youwin.png";
 			document.getElementById("bet_value").disabled=false;
 			/*if(trialno>1)
 				window.confirm("Congratulations YOU WON in "+(trialno)+ " trials.\nGame Over.\n Do you want to play again?");
 			else
 				window.confirm("Congratulations YOU WON in "+(trialno)+ " trial.\nGame Over.\n Do you want to play again?");*/
 			setIdValue("b1","Play Again");
+			document.getElementById("statusimage").src="../images/Youwin.png";
 			document.getElementById("youwin").volume=0.7;
 			document.getElementById("youwin").play();
 			document.getElementById("victory").volume=0.2;
