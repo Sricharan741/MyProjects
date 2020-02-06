@@ -72,6 +72,8 @@ u{
 	font:inherit;
 }
 .spectrum-background {
+	background-repeat:no-repeat;
+	background-size:auto;
     background:
         linear-gradient(red, transparent),
         linear-gradient(to top left, lime, transparent),
