@@ -164,6 +164,7 @@
 		}
 		else if(heads==tails){
 			document.getElementById("no_score").play();
+			document.getElementById("bet_value").disabled=false;
 			setIdValue("b1","Toss Again");
 		}
 		else{
