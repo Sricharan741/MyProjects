@@ -6,7 +6,7 @@
 	//Number of Flips Counter
 	function flipcount(flips)
 	{
-		if(i<=flips)
+		if(i<flips)
 			return ++i;
 		else {
 			i=0;
@@ -56,7 +56,7 @@
 			return true;
 		}
 	}
-	//Main Function of tsrichs game
+	//Main Function of this game
 	function toss()
 	{
 		var button=document.getElementById("b1");
