@@ -6,7 +6,7 @@
 	//Number of Flips Counter
 	function flipcount(flips)
 	{
-		if(i<flips)
+		if(i<=flips)
 			return ++i;
 		else {
 			i=0;
