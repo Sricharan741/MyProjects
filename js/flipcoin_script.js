@@ -222,7 +222,7 @@
 	//function to check if the game ends or continues
 	function winnerOrLoser(user_wallet,comp_wallet,trialno)
 	{
-		if((user_wallet>comp_wallet||comp_wallet==0)&&trialno<=10){
+		if(((user_wallet>comp_wallet)&&trialno==10)||(comp_wallet==0&&trialno<=10)){
 			document.getElementById("bet_value").disabled=false;
 			/*if(trialno>1)
 				window.confirm("Congratulations YOU WON in "+(trialno)+ " trials.\nGame Over.\n Do you want to play again?");
@@ -244,7 +244,7 @@
 			document.getElementById("tie_game").play();
 			createRow(play,trialno,user_wallet,comp_wallet,"TIE");
 		}
-		else if(trialno==10||user_wallet==0){
+		else if(((user_wallet<comp_wallet)&&trialno==10)||(user_wallet==0&&trialno<=10)){
 			document.getElementById("bet_value").disabled=false;
 			setIdValue("b1","Play Again");
 			document.getElementById("statusimage").src="../images/YouLose.png";
