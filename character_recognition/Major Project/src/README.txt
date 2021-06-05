@@ -1,5 +1,5 @@
-Note : please extract file named 'training_dataset.rar' and remove the rar file from the Major project folder
-How to execute the program?
+# Note : please extract file named 'training_dataset.rar' and remove the rar file from the Major project folder
+# How to execute the program?
  
 1. Open "MATLAB" 
 2. In the current folder section find the 'Major Project' file
