@@ -1,0 +1,9 @@
+<?php
+include("../../simple_html_dom.php");
+$dates_file="khammam_daily_update_dates.txt";
+$json_file="khammam_json.json";
+$state="Telangana";
+$district="Khammam";
+error_reporting(0);
+getData("https://market.todaypricerates.com/Khammam-vegetables-price-in-Telangana",$dates_file,$json_file,$state,$district);
+?>

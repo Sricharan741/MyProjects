@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "989324507348",
+    "firebase_url": "https://marketprices-bd7be.firebaseio.com",
+    "project_id": "marketprices-bd7be",
+    "storage_bucket": "marketprices-bd7be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989324507348:android:34dddb623b4d4a4536e341",
+        "android_client_info": {
+          "package_name": "com.marketprices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989324507348-enn2hm8hf8cps6guqf9t8ij9v9h7nomn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marketprices",
+            "certificate_hash": "236d94026bc86a8539c34b94dd5d2691c8bcc14b"
+          }
+        },
+        {
+          "client_id": "989324507348-sc3hp9pnco3fgqpf6snt35gmb1iimmtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT0TpLc7YRnI01LTXX5RFTXmlozLHLZqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989324507348-sc3hp9pnco3fgqpf6snt35gmb1iimmtc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

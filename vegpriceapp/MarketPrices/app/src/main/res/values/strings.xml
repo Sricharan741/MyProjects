@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Market Prices</string>
+    <string name="vegetable">vegetable</string>
+    <string name="vegetable_prices">Vegetable Prices</string>
+    <string name="about">About</string>
+    <string name="vegstate">Select State</string>
+    <string name="vegdistrict">Select District</string>
+    <string name="rate_this_app">Rate this App</string>
+    <string name="share_this_app">Share this App</string>
+    <string name="about_us">About Us</string>
+    <string name="exit">Exit</string>
+    <string name="shiva_shashank">Shiva Shashank</string>
+    <string name="sri_charan">Sri Charan</string>
+    <string name="vamshi_raghav">Vamshi Raghav</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="full_stack_developer">Full Stack Developer</string>
+    <string name="vegname">Vegname</string>
+    <string name="image">Image</string>
+    <string name="market_price">Market Price</string>
+    <string name="body">Body</string>
+    <string name="retail_price">Retail Price</string>
+    <string name="shopping_price">Shopping Price</string>
+    <string name="units_n_kg_pcs">\t<b>Units:</b>\n Kg/Pcs</string>
+</resources>

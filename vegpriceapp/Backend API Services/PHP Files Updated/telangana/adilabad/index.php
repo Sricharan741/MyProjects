@@ -1,0 +1,9 @@
+<?php
+include("../../simple_html_dom.php");
+$dates_file="adilabad_daily_update_dates.txt";
+$json_file="adilabad_json.json";
+$state="Telangana";
+$district="Adilabad";
+error_reporting(0);
+getData("https://market.todaypricerates.com/Adilabad-vegetables-price-in-Telangana",$dates_file,$json_file,$state,$district);
+?>

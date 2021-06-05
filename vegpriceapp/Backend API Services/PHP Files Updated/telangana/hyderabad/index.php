@@ -1,0 +1,9 @@
+<?php
+include("../../simple_html_dom.php");
+$dates_file="hyderabad_daily_update_dates.txt";
+$json_file="hyderabad_json.json";
+$state="Telangana";
+$district="Hyderabad";
+error_reporting(0);
+getData("https://market.todaypricerates.com/Hyderabad-vegetables-price-in-Telangana",$dates_file,$json_file,$state,$district);
+?>

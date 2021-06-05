@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1424091989/Market_Prices.iml" filepath="$PROJECT_DIR$/.idea/modules/-1424091989/Market_Prices.iml" group="Market_Prices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Market Prices/app" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<?php
+include("../../simple_html_dom.php");
+$dates_file="mahbubnagar_daily_update_dates.txt";
+$json_file="mahbubnagar_json.json";
+$state="Telangana";
+$district="Mahbubnagar";
+error_reporting(0);
+getData("https://market.todaypricerates.com/Mahbubnagar-vegetables-price-in-Telangana",$dates_file,$json_file,$state,$district);
+?>

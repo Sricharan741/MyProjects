@@ -1,0 +1,14 @@
+F:\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\BinaryTextImage.exe.config
+F:\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\BinaryTextImage.exe
+F:\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\BinaryTextImage.pdb
+F:\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\en\BinaryTextImage.resources.dll
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\BinaryTextImage.Properties.Resources.resources
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.en.resources
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ImageConvertor.csproj.GenerateResource.cache
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ImageConvertor.csproj.CoreCompileInputs.cache
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\en\BinaryTextImage.resources.dll
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\BinaryTextImage.exe
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\BinaryTextImage.pdb
+F:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ImageConvertor.csprojAssemblyReference.cache

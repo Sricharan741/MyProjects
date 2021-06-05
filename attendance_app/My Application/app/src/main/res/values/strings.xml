@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="percentage_you_need">Percentage you need :</string>
+    <string name="your_attendance">Your Attendance :</string>
+    <string name="your_input">Your Input</string>
+    <string name="total_classes_absent">Total Classes Absent :</string>
+    <string name="total_classes_present">Total Classes Present :</string>
+    <string name="output">Output</string>
+    <string name="textview">TextView</string>
+</resources>

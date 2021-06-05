@@ -1,0 +1,9 @@
+<?php
+include("../../simple_html_dom.php");
+$dates_file="nalgonda_daily_update_dates.txt";
+$json_file="nalgonda_json.json";
+$state="Telangana";
+$district="Nalgonda";
+error_reporting(0);
+getData("https://market.todaypricerates.com/Nalgonda-vegetables-price-in-Telangana",$dates_file,$json_file,$state,$district);
+?>
