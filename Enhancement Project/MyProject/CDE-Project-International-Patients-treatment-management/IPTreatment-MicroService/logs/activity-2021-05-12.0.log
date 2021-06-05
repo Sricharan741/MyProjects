@@ -1,5 +1,0 @@
-2021-05-11_22-18-54 [RMI TCP Connection(280)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2021-05-11_22-18-54 [RMI TCP Connection(280)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-05-11_22-18-54 [RMI TCP Connection(280)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-05-11_22-18-54 [RMI TCP Connection(280)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
-2021-05-11_22-18-54 [RMI TCP Connection(280)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
