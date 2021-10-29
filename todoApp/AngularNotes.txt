@@ -1,0 +1,47 @@
+Angular Notes
+-------------------------------------
+
+TYPESCRIPT = MODERN JS + STRONG TYPE
+
+Modern JS -> EcmaScript 2015 - ES6
+- class,import classes from other modules, rest and spread operators, string template, decorators, 
+	arrow operator, default parameters, Map, Set, Symbol type
+
+
+Commands:-
+--------------------------------------
+
+ng build -> dist -> subfolder is used to deploy the application to production environment
+ng test -> runs unit test
+ng e2e -> runs end to end tests by building and running entire application
+ng lint -> static code analyzer
+
+Unit tests are written using Jasmine framework and runned using Karma.
+E2E tests are written using Protractor framework which uses Selenium in the background and runned by chromedriver.
+
+Files in Angular application:-
+-----------------------------------------
+
+Lint -> code standards configuration file
+tslint.json -> coding standard rules are specified here
+angular.json -> contains definitions of angular commands
+
+app -> angular code like modules,components
+assets - static resources like images
+enviroments - all configurations for different enviroments like dev,production, testing, QA
+
+tsconfig.json -> typescript to javascript conversion specification
+README.md -> project documentation
+
+package.json -> external frameworks and packages needed to run angular commands and tools to run angular application
+		and tests are specified here
+	     -> npm install will download all the above to node_modules folder
+	     -> ng new appName -> will internally run npm install so all the dependencies are downloaded into node_modules
+
+When Angular applications starts index.html and main.ts files are loaded which bootstrap the process( root module is loaded)
+- RootModule is launched by main.ts and will be included in index.html and that's how it is bootstrapped
+
+polyfills.ts -> takes care of browser incompatibility
+styles.css -> global styles for application
+test.ts -> starting point to run unit tests
+
